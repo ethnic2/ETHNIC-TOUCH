@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethnic Touch - Décoration Intérieure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfdfd;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #0d1b2a;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .logo-title img {
+      height: 50px;
+      width: auto;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(rgba(13, 27, 42, 0.6), rgba(13, 27, 42, 0.6)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #0d1b2a;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .category {
+      background-color: #f7f3f0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .a-propos-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .a-propos-text {
+      flex: 1;
+      min-width: 280px;
+    }
+    .a-propos-photo {
+      flex: 1;
+      min-width: 280px;
+    }
+    .a-propos-photo img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 2rem;
+      margin-top: 4rem;
+    }
+    a {
+      color: #0d1b2a;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <!-- Remplace l'URL ci-dessous par le chemin vers le vrai logo -->
+      <img src="IMG_6742.jpg" alt="Logo Ethnic Touch">
+      <h1>ETHNIC TOUCH</h1>
+    </div>
+    <nav>
+      <a href="#a-propos">À propos</a>
+      <a href="#categories">Univers</a>
+      <a href="#projets">Projets</a>
+      <a href="#nos3d">Nos 3D</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Décoration intérieure entre tradition & modernité</h2>
+    <p>Créations sur mesure par Amal Benkirane à Tanger</p>
+  </section>
+
+  <section class="section" id="a-propos">
+    <h3>À propos</h3>
+    <div class="a-propos-wrapper">
+      <div class="a-propos-text">
+        <p>Ethnic Touch est né de la passion d'Amal Benkirane pour l'art de vivre, la matière et les histoires que racontent les objets. Situé à Tanger, notre concept allie modernité, artisanat et pièces anciennes soigneusement choisies. Chaque projet est pensé avec raffinement, sur-mesure, et un profond respect de l’authenticité.</p>
+      </div>
+      <div class="a-propos-photo">
+        <img src="IMG_6743.jpg" alt="Amal Benkirane devant la boutique Ethnic Touch">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <h3>Nos univers</h3>
+    <div class="categories">
+      <div class="category"><h4>Canapés</h4><p>Lignes épurées, confort absolu, tissus nobles.</p></div>
+      <div class="category"><h4>Salle à manger</h4><p>Tables conviviales, assises élégantes, matières naturelles.</p></div>
+      <div class="category"><h4>Salon</h4><p>Objets décoratifs, tapis, ambiance chaleureuse.</p></div>
+      <div class="category"><h4>Papier peint</h4><p>Motifs audacieux, textures murales sur mesure.</p></div>
+      <div class="category"><h4>Salle de bain</h4><p>Épure, céramique artisanale et accessoires choisis.</p></div>
+      <div class="category"><h4>Jardin</h4><p>Mobilier extérieur, lanternes, atmosphère bohème chic.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="projets">
+    <h3>Nos réalisations</h3>
+    <div class="gallery">
+      <img src="IMG_6749.jpg" alt="Projet 1">
+      <img src="IMG_6747.jpg" alt="Projet 2">
+      <img src="IMG_6744.jpg" alt="Projet 3">
+      <img src="IMG_6750.jpg" alt="Projet 4">
+    </div>
+  </section>
+
+  <section class="section" id="nos3d">
+    <h3>Nos 3D</h3>
+    <p>Découvrez quelques rendus 3D réalisés pour nos clients :</p>
+    <div class="gallery">
+      <img src="IMG_6752.jpg" alt="Rendu 3D 1">
+      <img src="IMG_6753.jpg" alt="Rendu 3D 2">
+      <img src="IMG_6751.jpg" alt="Rendu 3D 3">
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact</h3>
+    <p>Pour un projet ou une commande sur mesure, contactez-nous :<br>
+      <strong>Email :</strong> <a href="mailto:ethnictouchtangier@gmail.com">ethnictouchtangier@gmail.com</a><br>
+      <strong>Téléphone :</strong> <a href="tel:+33662552053">06 62 55 20 53</a><br>
+      <strong>Instagram :</strong> <a href="https://www.instagram.com/ethnictouch.tangier/" target="_blank" rel="noopener noreferrer">@ethnictouch.tangier</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ethnic Touch — Créé avec passion à Tanger par Amal Benkirane
+  </footer>
+</body>
+</html>
